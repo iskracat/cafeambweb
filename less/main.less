@@ -1,0 +1,666 @@
+@import "bootstrap/bootstrap.less";
+
+body {
+  padding-top: 0px;
+  padding-bottom: 40px;
+  background-color: #e3e3e3;
+}
+
+@import "bootstrap/responsive.less";
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid{
+	padding: 0px;
+}
+
+
+
+
+/* ===== desktop llarg =================================================== */
+
+#bloc_botons{
+
+	.span12{
+		text-align:center;
+		padding: 5%;
+	}
+
+	.marges{
+		padding: 0% 10% 0% 10%;
+	}
+
+	.span3{
+		.border-radius(0px 0px 10px 10px);
+	}
+
+	a {
+		font-family: 'Pacifico', cursive;
+		font-weight: normal;
+		font-size: 1em;
+	}
+
+	.bot_ponents{
+		background-color: #CC4D4A;
+		a{
+			color: #701411;
+		}
+		a:hover{
+			color: #000;
+		}
+	}
+
+	.bot_que_es{
+		background-color: #9ECECA;
+		a{
+			color: #4f827e;
+		}
+		a:hover{
+			color: #000;
+		}
+
+	}
+
+	.bot_segueixnos{
+		background-color: #FFF899;
+		a{
+			color: #b2a930;
+		}
+		a:hover{
+			color: #000;
+		}
+
+	}
+
+	.bot_colabora{
+		background-color: #EFEFEF;
+		a{
+			color: #999;
+		}
+		a:hover{
+			color: #000;
+		}
+
+	}
+
+
+
+
+}
+
+#bloc_capcalera{
+	background-color: #e3e3e3;
+
+
+	h1{
+		color: #000;
+		text-align:center;
+		font-size: 8em;
+		font-family: 'Abril Fatface', cursive;
+		font-weight: normal;
+		margin-top: 5%;
+		line-height:90%;
+	}
+
+	h2 {
+		font-size: 2em;
+		color: #000;
+		text-align:center;
+		font-family: 'Abril Fatface', cursive;
+		font-weight: normal;
+		margin-bottom: 1%;
+		line-height:90%;
+		
+	}
+}
+
+#bloc_capcalera_borrar{
+	height: 200px;
+	margin-bottom: 50px;
+	background-image:url('../img/cafe_web.png');
+	background-repeat:no-repeat;
+
+	background-position:50% 80%;
+
+
+
+	p{
+		color: #999;
+		font-family: 'Pacifico', cursive;
+		font-size: 1.2em;
+		text-align: left;
+		line-height:120%;
+		margin-bottom: 2%;
+		margin-left: 20%;
+		padding-top: 60px;
+		background-image:url('../img/fletxa.png');
+		background-repeat:no-repeat;
+		padding-left: 40px;
+	}
+
+}
+
+#bloc_data{
+	
+	background-color: #df5b57;
+
+		a{
+			padding: 2% 8% 4% 8%;
+			background-color: #FFF899;
+			color:#AD3C39;
+			.border-radius(5px 5px 5px 5px);
+			margin-bottom: : 20px;
+			text-decoration:none;
+			font-family: 'Ultra',serif;
+    		font-size: 2em;
+    		font-weight: normal;
+		}
+
+		a:hover{
+			background-color: #AD3C39;
+			color:#FFDAC0;
+		}
+
+	.lloc{
+		margin-top: -20px;
+		background-color: #CC4D4A;
+		text-align:center;
+		padding: 1% 2% 4% 2%;
+		.border-radius(10px 10px 10px 10px);
+		color: #FFDAC0;
+		font-family: 'Dosis', sans-serif;
+		border-style:dashed;
+		border-width:5px;
+		border-color:#AD3C39;
+		display: inline-block;
+
+		h1{
+			font-weight: 800;
+			font-size: 2em;
+			margin-bottom: 0px;
+		}
+
+		p{
+			font-weight: 400;
+			margin-bottom: 40px;
+		}
+	}
+
+	.trobada_borrar{
+		
+		padding: 20px 0px 10px 10px;
+		text-align:right;
+
+
+		p{
+			color: #ad3c39;
+			text-align:right;
+			font-family: 'Pacifico', cursive;
+			font-size: 1.2em;
+			line-height:120%;
+			padding-top: 10px;
+			padding-left: 40px;
+		}
+	}
+}
+
+#bloc_propera_trobada{
+
+	background-color: #df5b57;
+	text-align:center;
+
+	.span4{
+		padding: 2%;
+		color: #fff899;
+
+		h2 {
+			font-size: 2.5em;
+			text-align:center;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			margin-top: 0%;
+			line-height:110%;
+		}
+
+		h3 {
+			font-size: 1.3em;
+			text-align:center;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			margin-top: 10%;
+			line-height:90%;
+		}
+
+		h4 {
+			font-size: 1em;
+			text-align:center;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			font-style:italic;
+			margin-top: 1%;
+			line-height:90%;
+		}
+	}
+
+}
+
+#bloc_envia_ponencia{
+	background-color: #cc4d4a;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.3em;
+	color: #ffdac0;
+
+	.span12{
+		text-align:center;
+		padding: 5%;
+	}
+
+	a{
+		color:#fff899;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-style:italic;
+	}
+
+	.correu{
+		color: #9b2d2a;
+		text-align:right;
+		font-family: 'Pacifico', cursive;
+		font-size: 0.9em;
+		line-height:120%;
+		background-image: url("../img/fletxa_esquerra.png");
+   		background-repeat: no-repeat;
+   		padding-left: 70px;
+	}
+
+}
+
+#bloc_que_es{
+	background-color: #9ececa;
+
+	.span12{
+		padding: 5%;
+	}
+
+	h1 {
+		font-size: 4em;
+		font-family: 'Indie Flower', cursive;
+		text-align:center;
+		font-weight:normal;
+		line-height:90%;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		font-family: 'Indie Flower', cursive;
+		text-align:center;
+		font-weight:normal;
+		text-transform:uppercase;
+	}
+
+	p {
+		font-size: 1.2em;
+		font-family: 'Indie Flower', cursive;
+		text-align:center;
+		font-weight:normal;
+		margin-top: 2%;
+		line-height:150%;
+	}
+
+}
+
+#bloc_que_es_borrar{
+	background-color: #9ececa;
+	padding-bottom: 0px;
+	.span1{
+		border-left:1px solid #72a29e;
+		border-right:1px solid #72a29e;
+		color: #72a29e;
+		text-align:center;
+		font-family: 'Pacifico', cursive;
+		font-weight:normal;
+		font-size: 0.9em;
+	}
+
+	.span12{
+		border-left:1px solid #72a29e;
+		border-right:1px solid #72a29e;
+		color: #72a29e;
+		text-align:center;
+		font-family: 'Pacifico', cursive;
+		font-size: 1.2em;
+		font-weight:normal;
+	}
+
+}
+
+
+#bloc_no_to_perdis{
+	background-color: #fff899;
+	background-image:url('../img/fons_persones.gif');
+	background-repeat:no-repeat;
+	
+	.marges{
+		padding: 10%;
+	}
+
+	.span6{
+		background-color: #9ececa;
+		opacity:0.8;
+		text-align:center;
+		padding: 4% 4% 6% 4%;
+		border-bottom:2px solid #fff899;
+	}
+
+	h4{
+		text-align:center;
+		color:#ffffff;
+		font-family: 'Ultra', serif;
+		font-weight:normal;
+		margin-bottom: 20px;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+
+	}
+
+	a{
+		text-align:center;
+		color:#df5b57;
+		font-size: 1.5em;
+		font-family: 'Ultra', serif;
+		font-weight:normal;
+
+	}
+
+	.btn{
+		background-color: #df5b57;
+		background-image: none;
+		color: #fff;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	}
+
+	.btn:hover{
+		background-color: #CC4D4A;
+
+	}
+
+	form {
+    	margin: 0px;
+	}
+
+	.borrar p{
+		color: #cec65a;
+		text-align:center;
+		font-family: 'Pacifico', cursive;
+		font-size: 1.2em;
+	}
+
+	.extra{
+		padding: 0px !important;
+		background-color: transparent;
+	}
+
+}
+
+footer{
+
+	margin-top: 4%;
+
+	h5 {
+	    color: #999;
+	   	font-size: 1.5em;
+		font-family: 'Abril Fatface', cursive;
+		font-weight: normal;
+		font-weight: 400;
+	    line-height: 150%;
+	    text-align: center;
+
+	}
+
+	.franja_logos{
+		padding: 4%;
+	}
+
+	.caixa_logo {
+		background-color: #efefef;
+		text-align: center;
+		padding: 5%;
+		.border-radius(5px 5px 5px 5px);
+
+	}
+
+	.colabora {
+		background-color: #ccc;
+		color: #fff;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+		font-family: 'Pacifico', cursive;
+		font-size: 1.7em;
+		line-height:130%;
+		padding: 7% 5% 7% 5%;
+	}
+}
+
+
+
+
+
+/* ===== desktop curt  =================================================== */
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 979px) { 
+
+	.borrar{
+		display: none;
+	}
+
+	body {
+		padding-left: 0px;
+  		padding-right: 0px;
+	}
+	
+	#bloc_capcalera{
+		h1{
+			font-size: 6em;
+			margin-top: 10%;
+		}
+		h2{
+			font-size: 1.5em;
+			margin-bottom: 10%;
+		}
+	}
+
+	#bloc_propera_trobada{
+		.span4{
+
+			
+
+			h2{
+				font-size: 2em;
+			}
+
+		}
+	}
+
+	#bloc_no_to_perdis{
+
+		a{
+			font-size: 1.5em;
+		}
+		
+		.span6{
+			min-height:200px;
+		}
+	}
+
+}
+
+
+/* ===== tablet vertical  =================================================== */
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+	body {
+		padding-left: 0px;
+  		padding-right: 0px;
+	}
+
+	#bloc_botons{
+
+		.span3{
+			.border-radius(0px 0px 0px 0px);
+		}
+
+
+	}
+
+	#bloc_capcalera{
+		h1{
+			font-size: 4em;
+		}
+		h2{
+			font-size: 1.2em;
+		}
+	}
+
+
+	#bloc_data{
+
+		background-color: transparent;
+
+
+		.span4 {
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+			display: none;
+		}
+
+		.lloc{
+			margin-top: 0px;
+			margin-bottom: 0px;
+			padding: 2% 4% 10% 4%;
+			.border-radius(0px 0px 0px 0px);
+			display: block;
+		}
+
+
+	}
+
+	#bloc_propera_trobada{
+		.span4{
+			border-bottom:2px solid #CC4D4A;
+			h2{
+				margin-top: 5%;
+			}
+			h3{
+				margin-top: 5%;
+			}
+
+		}
+	}
+
+	#bloc_no_to_perdis{
+
+		a{
+			font-size: 1.5em;
+		}
+		.span6{
+			min-height:0px;
+		}
+
+	}
+
+	footer{
+
+		.caixa_logo {
+			.border-radius(0px 0px 0px 0px);
+			border-bottom:20px solid #e3e3e3;
+			padding: 2%;
+
+		}
+
+		img{
+			width:40%;
+		}
+	}
+ }
+
+
+ 
+/* Landscape phones and down===================================== */
+@media (max-width: 480px) { 
+
+	body {
+		padding-left: 0px;
+  		padding-right: 0px;
+	}
+
+	#bloc_capcalera{
+		h1{
+			font-size: 2.5em;
+
+		}
+		h2{
+			font-size: 0.8em;
+			height:100%;
+
+		}
+	}
+
+	#bloc_que_es{
+		h1 {
+			font-size: 3em;
+		}
+
+		p{
+			display: none;
+		}
+	}
+
+	#bloc_no_to_perdis{
+
+		a{
+			font-size: 1em;
+		}
+
+		h4{
+			font-size: 0.9em;
+			margin-bottom: 10px;
+		}
+	}
+
+	footer{
+
+		h3 {
+		    font-size: 1.5em;
+		}
+
+		.caixa_logo {
+			.border-radius(0px 0px 0px 0px);
+			border-bottom:20px solid #e3e3e3;
+			padding: 5%;
+
+		}
+
+		img{
+			width:50%;
+		}
+
+
+	}
+
+
+}
+	
+	
